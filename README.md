@@ -13,7 +13,7 @@ This dataset contains daily temperature readings for Columbia, Missouri, specifi
 
     - **Location:** University of Missouri, Columbia, Missouri, USA
     - **Time Period:** September 1-30, 2024
-    - **Variables:** Daily high and low temperatures (in °F)
+    - **Variables:** Daily average temperatures (in °F)
     - **Note:** Some data points have been intentionally removed to create a time series with missing values for educational purposes.
 
 * **Disclaimer:** This dataset is intended for educational purposes only. It will be used to demonstrate various techniques for handling missing data in time series analysis using Python and Pandas. The data has been modified from its original form to include missing values, making it suitable for teaching data cleaning and imputation methods.
