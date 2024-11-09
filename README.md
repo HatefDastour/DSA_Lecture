@@ -3,7 +3,7 @@ Short Lecture on Data Science and Analytics
 
 ## Datasets
 
-### Weather Data for Columbia, MO - September 2024
+### Weather Data for Columbia, MO
 
 This dataset contains daily temperature readings for Columbia, Missouri, specifically from the University of Missouri weather station for September 2024. The data has been sourced from the National Centers for Environmental Information (NCEI).
 
