@@ -13,7 +13,7 @@ This dataset contains daily temperature readings for Columbia, Missouri, specifi
 
 * **Dataset Description:**
 
-1. **data_2024_metric.csv**
+1. **data_2024_metric_full.csv**
     - **Description:** This file contains weather data in metric units.
     - **Units:** 
         - Precipitation (PRCP): millimeters (mm)
@@ -25,7 +25,7 @@ This dataset contains daily temperature readings for Columbia, Missouri, specifi
     - **Units:** Same as `data_2024_metric.csv`.
     - **Example Data:** Contains NaNs in the same locations as in the standard dataset.
 
-3. **data_2024_standard.csv**
+3. **data_2024_standard_full.csv**
     - **Description:** This file contains weather data in standard units.
     - **Units:** 
         - Precipitation (PRCP): inches (in)
