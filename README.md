@@ -6,8 +6,8 @@ This lecture covers core principles in Data Science and Analytics, with a specif
 
 | Filename                        | Description                                       | Google Colab       |
 |---------------------------------|---------------------------------------------------|---------------------|
-| `Lecture_Examples.ipynb`       | A collection of lecture examples that illustrate key concepts without full code implementations. | [<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" width="140"/>](https://colab.research.google.com/github/HatefDastour/DSA_Lecture/blob/main/lecture_examples/Lecture_Examples.ipynb) |
-| `Lecture_Examples_Complete.ipynb` | Comprehensive lecture examples that include complete code implementations. | [<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" width="140"/>](https://colab.research.google.com/github/HatefDastour/DSA_Lecture/blob/main/lecture_examples/Lecture_Examples_Complete.ipynb) |
+| `Lecture_Examples.ipynb`       | A collection of lecture examples that illustrate key concepts without full code implementations. | [<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" width="150"/>](https://colab.research.google.com/github/HatefDastour/DSA_Lecture/blob/main/lecture_examples/Lecture_Examples.ipynb) |
+| `Lecture_Examples_Complete.ipynb` | Comprehensive lecture examples that include complete code implementations. | [<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" width="150"/>](https://colab.research.google.com/github/HatefDastour/DSA_Lecture/blob/main/lecture_examples/Lecture_Examples_Complete.ipynb) |
 
 ## Datasets Overview
 
