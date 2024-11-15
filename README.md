@@ -2,6 +2,13 @@
 
 This lecture covers core principles in Data Science and Analytics, with a specific focus on handling missing data within the data science lifecycle.
 
+## Lecture Examples
+
+| Filename                        | Description                                       | Google Colab       |
+|---------------------------------|---------------------------------------------------|---------------------|
+| `Lecture_Examples.ipynb`       | A collection of lecture examples that illustrate key concepts without full code implementations. | [<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" width="140"/>](https://colab.research.google.com/github/HatefDastour/DSA_Lecture/blob/main/lecture_examples/Lecture_Examples.ipynb) |
+| `Lecture_Examples_Complete.ipynb` | Comprehensive lecture examples that include complete code implementations. | [<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" width="140"/>](https://colab.research.google.com/github/HatefDastour/DSA_Lecture/blob/main/lecture_examples/Lecture_Examples_Complete.ipynb) |
+
 ## Datasets Overview
 
 The lecture includes two primary datasets: **Weather Data** and **Missouri Monthly Unemployment Claims by Industry**. Each dataset presents unique structures, types, and levels of missing data to support exercises in data preparation, imputation, and time series analysis.
