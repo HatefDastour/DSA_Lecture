@@ -2,6 +2,8 @@
 
 This lecture covers core principles in Data Science and Analytics, with a specific focus on handling missing data within the data science lifecycle.
 
+---
+
 ## Lecture Examples
 
 | Filename                        | Description                                       | Google Colab       |
@@ -10,6 +12,8 @@ This lecture covers core principles in Data Science and Analytics, with a specif
 | `Lecture_Examples_Complete.ipynb` | Comprehensive lecture examples that include complete code implementations. | [<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" width="150"/>](https://colab.research.google.com/github/HatefDastour/DSA_Lecture/blob/main/lecture_examples/Lecture_Examples_Complete.ipynb) |
 
 > **Note:** Right-click on the link and select "Open link in new tab" to view it without leaving this page.
+
+---
 
 ## Datasets Overview
 
@@ -30,7 +34,7 @@ The weather data is sourced from the [University of Missouri weather station](ht
 
 The weather dataset includes eight CSV files across two subsets (10-day and 2024 full-year), covering different periods and units (metric and standard) to enable detailed analysis.
 
-**10-Day Dataset (2010-10-01 to 2010-10-10)**
+**10-Day Dataset (2024-10-01 to 2024-10-10)**
 
 | Filename                    | Description                                      | Units       |
 |-----------------------------|--------------------------------------------------|-------------|
@@ -39,7 +43,7 @@ The weather dataset includes eight CSV files across two subsets (10-day and 2024
 | `data_10day_standard_full.csv`| Complete data in standard units                  | TMIN, TMAX: °F |
 | `data_10day_standard_missing.csv`| Data with missing values (NaNs) in standard units| TMIN, TMAX: °F |
 
-**Full 2024 Dataset (2010-01-01 to 2010-11-05)**
+**Full 2024 Dataset (2024-01-01 to 2024-11-05)**
 
 | Filename                    | Description                                      | Units       |
 |-----------------------------|--------------------------------------------------|-------------|
