@@ -6,12 +6,13 @@ This lecture covers core principles in Data Science and Analytics, with a specif
 
 ## Lecture Examples
 
-| Filename                        | Description                                       | Google Colab       |
-|---------------------------------|---------------------------------------------------|---------------------|
-| `Lecture_Examples.ipynb`       | A collection of lecture examples that illustrate key concepts without full code implementations. | [<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" width="150"/>](https://colab.research.google.com/github/HatefDastour/DSA_Lecture/blob/main/lecture_examples/Lecture_Examples.ipynb) |
-| `Lecture_Examples_Complete.ipynb` | Comprehensive lecture examples that include complete code implementations. | [<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" width="150"/>](https://colab.research.google.com/github/HatefDastour/DSA_Lecture/blob/main/lecture_examples/Lecture_Examples_Complete.ipynb) |
+| Filename                        | Description                                   | Google Colab       |
+|---------------------------------|-----------------------------------------------|---------------------|
+| `Lecture_Examples.ipynb`        | Illustrates key concepts with minimal code.   | [<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" width="150"/>](https://colab.research.google.com/github/HatefDastour/DSA_Lecture/blob/main/lecture_examples/Lecture_Examples.ipynb) |
+| `Lecture_Examples_Complete.ipynb` | Includes complete code implementations.       | [<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" width="150"/>](https://colab.research.google.com/github/HatefDastour/DSA_Lecture/blob/main/lecture_examples/Lecture_Examples_Complete.ipynb) |
+| `Lecture_Activity.ipynb`        | Interactive lecture activity.                 | [<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" width="150"/>](https://colab.research.google.com/github/HatefDastour/DSA_Lecture/blob/main/lecture_examples/Lecture_Activity.ipynb) |
 
-> **Note:** Right-click on the link and select "Open link in new tab" to view it without leaving this page.
+> **Note:** Right-click on the link and select "Open link in new tab" to view without leaving this page. 
 
 ---
 
