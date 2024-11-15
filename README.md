@@ -1,55 +1,83 @@
 # Data Science and Analytics Lecture Overview
 
-This lecture covers core principles in Data Science and Analytics, with a specific emphasis on handling missing data within the data science lifecycle.
+This lecture covers core principles in Data Science and Analytics, with a specific focus on handling missing data within the data science lifecycle.
 
-## Weather Data Overview
+## Datasets Overview
 
-The dataset for this lecture consists of weather data collected from the University of Missouri weather station in Columbia, Missouri. Sourced from the National Centers for Environmental Information (NCEI) and provided by the National Oceanic and Atmospheric Administration (NOAA), this data encompasses daily temperature and precipitation records.
+The lecture includes two primary datasets: **Weather Data** and **Missouri Monthly Unemployment Claims by Industry**. Each dataset presents unique structures, types, and levels of missing data to support exercises in data preparation, imputation, and time series analysis.
+
+---
+
+### 1. Weather Data Overview
+
+The weather data is sourced from the [University of Missouri weather station](https://www.ncei.noaa.gov/cdo-web/datasets/GHCND/stations/GHCND:USC00231801/detail) in Columbia, Missouri, provided by the National Centers for Environmental Information (NCEI) and the National Oceanic and Atmospheric Administration (NOAA). This dataset includes daily temperature and precipitation records, structured for analysis with complete and missing-value variants.
 
 - **Location**: Columbia, Missouri  
 - **Source**: [NCEI Climate Data](https://www.ncei.noaa.gov/cdo-web/)  
 - **Provider**: National Oceanic and Atmospheric Administration (NOAA)  
 - **Data Type**: Daily temperature and precipitation readings  
 
-### Dataset Structure
+#### Weather Dataset Structure
 
-The dataset includes eight CSV files structured for analysis across different periods and units, offering both complete and incomplete data for handling missing values.
+The weather dataset includes eight CSV files across two subsets (10-day and 2024 full-year), covering different periods and units (metric and standard) to enable detailed analysis.
 
-#### 10-Day Dataset (2010-10-01 to 2010-10-10)
+**10-Day Dataset (2010-10-01 to 2010-10-10)**
 
-This subset provides daily records for a 10-day period in both metric and standard units, with complete and missing-value variants.
+| Filename                    | Description                                      | Units       |
+|-----------------------------|--------------------------------------------------|-------------|
+| `data_10day_metric_full.csv`| Complete data in metric units                    | TMIN, TMAX: °C |
+| `data_10day_metric_missing.csv`| Data with missing values (NaNs) in metric units | TMIN, TMAX: °C |
+| `data_10day_standard_full.csv`| Complete data in standard units                  | TMIN, TMAX: °F |
+| `data_10day_standard_missing.csv`| Data with missing values (NaNs) in standard units| TMIN, TMAX: °F |
 
-| Filename | Description | Units |
-|----------|-------------|-------|
-| `data_10day_metric_full.csv` | Complete data in metric units | TMIN, TMAX: °C |
-| `data_10day_metric_missing.csv` | Data with intentional missing values (NaNs) | TMIN, TMAX: °C |
-| `data_10day_standard_full.csv` | Complete data in standard units | TMIN, TMAX: °F |
-| `data_10day_standard_missing.csv` | Data with intentional missing values (NaNs) | TMIN, TMAX: °F |
+**Full 2024 Dataset (2010-01-01 to 2010-11-05)**
 
-**Variables**:  
-- **TMIN**: Minimum Daily Temperature  
-- **TMAX**: Maximum Daily Temperature  
-
-#### Full 2024 Dataset (2010-01-01 to 2010-11-05)
-
-The 2024 dataset spans most of 2010, providing daily records in both metric and standard units, with versions that include and omit missing values.
-
-| Filename | Description | Units |
-|----------|-------------|-------|
-| `data_2024_metric_full.csv` | Complete data in metric units | PRCP: mm, TMIN/TMAX: °C |
-| `data_2024_metric_missing.csv` | Data with intentional missing values (NaNs) | PRCP: mm, TMIN/TMAX: °C |
-| `data_2024_standard_full.csv` | Complete data in standard units | PRCP: in, TMIN/TMAX: °F |
-| `data_2024_standard_missing.csv` | Data with intentional missing values (NaNs) | PRCP: in, TMIN/TMAX: °F |
+| Filename                    | Description                                      | Units       |
+|-----------------------------|--------------------------------------------------|-------------|
+| `data_2024_metric_full.csv` | Complete data in metric units                    | PRCP: mm, TMIN/TMAX: °C |
+| `data_2024_metric_missing.csv` | Data with missing values (NaNs) in metric units | PRCP: mm, TMIN/TMAX: °C |
+| `data_2024_standard_full.csv` | Complete data in standard units                  | PRCP: in, TMIN/TMAX: °F |
+| `data_2024_standard_missing.csv` | Data with missing values (NaNs) in standard units| PRCP: in, TMIN/TMAX: °F |
 
 **Variables**:  
 - **PRCP**: Daily Precipitation  
 - **TMIN**: Minimum Daily Temperature  
 - **TMAX**: Maximum Daily Temperature  
 
+---
+
+### 2. Missouri Monthly Unemployment Claims by Industry Overview
+
+This dataset represents monthly unemployment claims in Missouri across five industries from August 2011 to October 2024, with both complete and missing-value variants. It is useful for exploring temporal patterns in unemployment and developing imputation techniques for missing data.
+
+- **Source**: Missouri Monthly Unemployment Claims by Industry, accessible via [Missouri Data Portal](https://data.mo.gov/Labor/Missouri-Monthly-Unemployment-Claims-By-Industry/cj66-t7xq/about_data).
+- **Data Type**: Monthly unemployment claims
+
+#### Unemployment Claims Dataset Structure
+
+The dataset includes two CSV files reflecting monthly data across the selected industries, available in both complete and missing-value versions.
+
+| Filename                        | Description                                      |
+|---------------------------------|--------------------------------------------------|
+| `monthly_unemployment_full.csv` | Complete data with monthly unemployment claims   |
+| `monthly_unemployment_missing.csv` | Data with missing values (NaNs) in unemployment claims |
+
+**Industries Included**:  
+- **Admin. & Support/Waste Mgmt./Remedia. Serv.**
+- **Manufacturing**
+- **Construction**
+- **Health Care & Social Assistance**
+- **Accommodation & Food Services**
+
+**Date Column**:  
+- **Date**: First day of each month, marking the period for reported unemployment claims.
+
+---
+
 ## Learning Objectives
 
-This dataset is designed to support educational exercises in data cleaning, imputation, and handling missing values within time series analysis. The files with missing data provide a realistic context for developing data preparation and analytical skills in Python.
+The datasets provided aim to reinforce data science skills in handling missing data, time series analysis, and data preparation in Python. The missing data variations offer realistic scenarios for practicing data cleaning and imputation techniques.
 
 ## Important Note
 
-The datasets provided here are modified versions intended solely for instructional purposes. While they are based on accurate historical records, they should not be used for formal weather analysis or forecasting.
+These datasets are modified for educational purposes only. While based on real-world records, they are not suitable for formal analysis or forecasting.
