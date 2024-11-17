@@ -4,6 +4,12 @@ This lecture covers core principles in Data Science and Analytics, with a specif
 
 ---
 
+## Lecture Slides
+
+You can access Lecture Slides here: [Lecture_Slides.pdf](C:\Users\hatef\Documents\GitHub\DSA_Lecture\lecture_slides\Lecture_Slides.pdf)
+
+---
+
 ## Lecture Examples
 
 | Filename                        | Description                                   | Google Colab       |
