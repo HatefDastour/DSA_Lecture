@@ -6,7 +6,7 @@ This lecture covers core principles in Data Science and Analytics, with a specif
 
 ## Lecture Slides
 
-You can access Lecture Slides here: [Lecture_Slides.pdf](C:\Users\hatef\Documents\GitHub\DSA_Lecture\lecture_slides\Lecture_Slides.pdf)
+You can access Lecture Slides here: [Lecture_Slides.pdf](https://github.com/HatefDastour/DSA_Lecture/blob/b1c8a6a01ec33a343aab78ace9bd91b55062f2ba/lecture_slides/Lecture_Slides.pdf)
 
 ---
 
